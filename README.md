@@ -2,10 +2,16 @@
 <div align="center">
   <a href="https://github.com/lrrsouza">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Lrrsouza&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lrrsouza&layout=compact&langs_count=7&theme=dracula"/>
+<<<<<<< HEAD
   ##
   <img align="center" width="148" height="180" src="https://octodex.github.com/images/codercat.jpg">
+=======
+  
+  ##
+  <img align="center" width="148" height="180" src="https://octodex.github.com/images/codercat.jpg">
+  <img align="center" width="148" height="180" src="https://octodex.github.com/images/codercat.jpg">
+>>>>>>> 6498352350fa75684d7d9f70cec69437fa61b25b
 </div>
 
 ## Contatos
