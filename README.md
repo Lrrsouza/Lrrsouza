@@ -31,12 +31,12 @@
     <a href="https://t.me/lrrsouza"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
     <a href="luisricardoramos0102@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
      
-      ![Snake animation](https://github.com/Lrrsouza/Lrrsouza/blob/output/github-contribution-grid-snake.svg)
-    
    </div>
  
 </div>
  
+ ![Snake animation](https://github.com/Lrrsouza/Lrrsouza/blob/output/github-contribution-grid-snake.svg)
+
 [![readme](https://github-readme-stats.vercel.app/api/pin/?username=Lrrsouza&repo=Lrrsouza&theme=react)](https://github.com/Lrrsouza/Lrrsouza)
 
 </body>
