@@ -10,8 +10,8 @@
 
 <div>
   <a href="https://github.com/Lrrsouza">
-  <img height="180em"   align="center" src="https://github-readme-stats.vercel.app/api?username=Lrrsouza&show_icons=true&theme=react&include_all_commits=true&count_private=true"/>
-  <img height="180em"  align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lrrsouza&layout=compact&langs_count=10&theme=react" />
+  <img height="180em"   align="right" src="https://github-readme-stats.vercel.app/api?username=Lrrsouza&show_icons=true&theme=react&include_all_commits=true&count_private=true"/>
+  <img height="180em"  align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lrrsouza&layout=compact&langs_count=10&theme=react" />
   <br>
   <img align="center" width="148" height="180" src="https://octodex.github.com/images/codercat.jpg">
 </div>
