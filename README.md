@@ -8,29 +8,19 @@
 <body>
     <h1> Hi! My name is Luis. </h1>
 
-<div>
+<div  align="center">>
   <a href="https://github.com/Lrrsouza">
-  <img height="180em"   align="right" src="https://github-readme-stats.vercel.app/api?username=Lrrsouza&show_icons=true&theme=react&include_all_commits=true&count_private=true"/>
-  <img height="180em"  align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lrrsouza&layout=compact&langs_count=10&theme=react" />
-  <br>
+  <img height="180em"   align="center" src="https://github-readme-stats.vercel.app/api?username=Lrrsouza&show_icons=true&theme=react&include_all_commits=true&count_private=true"/>
+  <img height="180em"  align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lrrsouza&layout=compact&langs_count=10&theme=react" />
   <img align="center" width="148" height="180" src="https://octodex.github.com/images/codercat.jpg">
 </div>
 <br>
-<div  align="center"> 
-  <div style="display: inline_block"><br>
-  <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="PHP" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg">
-  <img align="center" alt="java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
- 
-    
-</div>
+    </div>
   <br><div> 
     <a href="https://www.linkedin.com/in/lrrsouza/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
     <a href="https://t.me/lrrsouza"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
-    <a href="luisricardoramos0102@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-     
+    <a href="luisricardoramos0102@gmail.com"><link type="image/png" sizes="120x120" rel="icon" href=".../icons8-linkedin-120.png">></a>
+    
    </div>
  
 </div>
@@ -49,3 +39,9 @@
 - [Octodex](https://octodex.github.com/)
 
 - [w3schools](https://www.w3schools.com/)
+<ul>
+	<li>Leite</li>
+	<li>Queijo</li>
+	<li>Ovos</li>
+	<li>Açúcar</li>
+</ul>
