@@ -34,12 +34,6 @@
   
   <h1> Links Úteis </h1>
 
-- [Markdown Guide Basic Syntax](https://www.markdownguide.org/basic-syntax/)
-- [Comandos Básicos de GIT](https://www.hostinger.com.br/tutoriais/comandos-basicos-de-git?ppc_campaign=google_performance_max&gclid=Cj0KCQjwwJuVBhCAARIsAOPwGARwGnZxj1wtbVzmIay_zMHqIJBsk0qWXM6E1N9cn-sBFVIlitpWrw4aAvLeEALw_wcB)
-
-- [Octodex](https://octodex.github.com/)
-
-- [w3schools](https://www.w3schools.com/)
 <ul>
 	<li>Markdown Guide Basic Syntax</li> https://www.markdownguide.org/basic-syntax/
 	<li>Comandos Básicos de GIT</li> https://www.hostinger.com.br/tutoriais/comandos-basicos-de-git?ppc_campaign=google_performance_max&gclid=Cj0KCQjwwJuVBhCAARIsAOPwGARwGnZxj1wtbVzmIay_zMHqIJBsk0qWXM6E1N9cn-sBFVIlitpWrw4aAvLeEALw_wcB
