@@ -11,34 +11,32 @@
 <div  align="center">
   <a href="https://github.com/Lrrsouza">
   <img height="180em"   align="center" src="https://github-readme-stats.vercel.app/api?username=Lrrsouza&show_icons=true&theme=react&include_all_commits=true&count_private=true"/>
-  <img height="180em"  align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lrrsouza&layout=compact&langs_count=10&theme=react" />
-  <br>
-  <div>
-  <img align="right" width="148" height="180" src="https://octodex.github.com/images/codercat.jpg">
-    
-    ![readme](https://github-readme-stats.vercel.app/api/pin/?username=Lrrsouza&repo=Lrrsouza&theme=react)](https://github.com/Lrrsouza/Lrrsouza)
-  </div>
+  <img height="180em"  align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lrrsouza&layout=compact&langs_count=7&theme=react" />
   
   ![Snake animation](https://github.com/Lrrsouza/Lrrsouza/blob/output/github-contribution-grid-snake.svg)
+</div> <br>
 
-</div>
-<br>
    <h1> Meus Contatos </h1>
-  <div> 
+   
+   <img align="right" width="148" height="180" src="https://octodex.github.com/images/codercat.jpg">
+   
+  <div>
+    <a href="mailto:luisricardoramos0102@gmail.com"><img src="https://img.icons8.com/color/48/000000/send.png"/></a>
     <a href="https://www.linkedin.com/in/lrrsouza/"><img src="https://img.icons8.com/fluency/48/000000/linkedin.png"/></a>
     <a href="https://t.me/lrrsouza"><img src="https://img.icons8.com/color/48/000000/telegram-app--v1.png"/></a>
-    <a href="luisricardoramos0102@gmail.com"><img src="https://img.icons8.com/plasticine/48/000000/discord-logo.png"/></a>
-    <img src="https://img.icons8.com/doodle/48/000000/whatsapp.png"/>
-   
-  </div>
+    <a href=""><img src="https://img.icons8.com/plasticine/48/000000/discord-logo.png"/></a>
+    <a href=""><img src="https://img.icons8.com/doodle/48/000000/whatsapp.png"/>
+  </div> <br>
   
-  <h1> Links Úteis </h1>
+  
+ <h1> Links Úteis </h1>
 
 <ul>
-	<li>Markdown Guide Basic Syntax</li> https://www.markdownguide.org/basic-syntax/
-	<li>Comandos Básicos de GIT</li> https://www.hostinger.com.br/tutoriais/comandos-basicos-de-git?ppc_campaign=google_performance_max&gclid=Cj0KCQjwwJuVBhCAARIsAOPwGARwGnZxj1wtbVzmIay_zMHqIJBsk0qWXM6E1N9cn-sBFVIlitpWrw4aAvLeEALw_wcB
-	<li>Octodex</li> https://octodex.github.com/
-	<li>w3schools</li> https://www.w3schools.com/
+	<li><a href="https://www.markdownguide.org/basic-syntax/" target="_blank"> Markdown Guide Basic Syntax</a></li>
+	<li><a href="https://www.hostinger.com.br/tutoriais/comandos-basicos-de-git/" target="_blank">Comandos Básicos de GIT</a></li> 
+	<li><a href="https://octodex.github.com/" target="_blank">Octodex</a></li>
+	<li><a href="https://www.w3schools.com/" target="_blank">w3schools</a></li>
+	
 </ul>
  
 </body>
