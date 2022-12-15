@@ -39,9 +39,3 @@
 - [Octodex](https://octodex.github.com/)
 
 - [w3schools](https://www.w3schools.com/)
-<ul>
-	<li>Leite</li>
-	<li>Queijo</li>
-	<li>Ovos</li>
-	<li>Açúcar</li>
-</ul>
