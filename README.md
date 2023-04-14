@@ -42,13 +42,4 @@
 </body>
 </html>
  
-<<<<<<< HEAD
-## Links Úteis
-- [Markdown Guide Basic Syntax](https://www.markdownguide.org/basic-syntax/)
-- [Comandos Básicos de GIT](https://www.hostinger.com.br/tutoriais/comandos-basicos-de-git?ppc_campaign=google_performance_max&gclid=Cj0KCQjwwJuVBhCAARIsAOPwGARwGnZxj1wtbVzmIay_zMHqIJBsk0qWXM6E1N9cn-sBFVIlitpWrw4aAvLeEALw_wcB)
 
-- [Octodex](https://octodex.github.com/)
-
-- [w3schools](https://www.w3schools.com/)
-=======
->>>>>>> badfef0709f969270f16df574fc6e4a88aef97ad
