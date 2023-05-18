@@ -13,7 +13,7 @@
   <img height="180em"   align="center" src="https://github-readme-stats.vercel.app/api?username=Lrrsouza&show_icons=true&theme=react&include_all_commits=true&count_private=true"/>
   <img height="180em"  align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lrrsouza&layout=compact&langs_count=100&theme=react" />
   
-  ![Snake animation](https://github.com/Lrrsouza/Lrrsouza/blob/output/github-contribution-grid-snake.svg)
+  
 </div> <br>
 
    <h1> Meus Contatos </h1>
@@ -24,8 +24,7 @@
     <a href="mailto:luisricardoramos0102@gmail.com"><img src="https://img.icons8.com/color/48/000000/send.png"/></a>
     <a href="https://www.linkedin.com/in/lrrsouza/"><img src="https://img.icons8.com/fluency/48/000000/linkedin.png"/></a>
     <a href="https://t.me/lrrsouza"><img src="https://img.icons8.com/color/48/000000/telegram-app--v1.png"/></a>
-    <a href=""><img src="https://img.icons8.com/plasticine/48/000000/discord-logo.png"/></a>
-    <a href=""><img src="https://img.icons8.com/doodle/48/000000/whatsapp.png"/>
+    <a href="https://api.whatsapp.com/send?phone=5512988445745"><img src="https://img.icons8.com/doodle/48/000000/whatsapp.png"/>
   </div> <br>
   
   
