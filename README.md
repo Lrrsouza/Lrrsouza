@@ -18,7 +18,7 @@
 
    <h1> Meus Contatos </h1>
    
-   <img align="right" width="148" height="180" src="https://octodex.github.com/images/codercat.jpg">
+   <img align="right" width="148" height="180" src="https://github.com/Lrrsouza/Lrrsouza/blob/main/imag/octocat01.png">
    
   <div>
     <a href="mailto:luisricardoramos0102@gmail.com"><img src="https://img.icons8.com/color/48/000000/send.png"/></a>
