@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "JetBrains Mono", monospace;
+}
+
+body{
+    background-color: #161616;
+    height: 100vh;
+
+}
+
+.interface{
+    max-width:1280px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 30px 2%;
+}
+
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color:#5a897c;
+    text-decoration: none;
+    display: inline-block;
+    transition:.2s;
+
+}
+
+header nav ul li a:hover{
+    color: #ffffff;
+    transform: scale(1.04);
+}
+
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav li{
+   display: inline-block;
+   padding: 0 30px;
+   font-size: 18px;
+}
+
+
+
+header .lrrsouzaContato button{
+padding: 10px 40px;
+font-size: 18px;
+font-weight: 600;
+background-color: #aebab6;
+border: 0;
+border-radius:30px;
+cursor: pointer;
+
+}
