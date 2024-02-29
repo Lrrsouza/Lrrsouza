@@ -4,7 +4,6 @@
     margin: 0;
     padding:0;
     box-sizing:border-box;
-    
 }
 
 body{
@@ -14,7 +13,7 @@ body{
 }
 
 .interface{
-    max-width:1280px;
+    max-width:1280;
     margin: 0 auto;
 }
 
@@ -25,11 +24,11 @@ body{
 
 /* BlocoEstiloCabeçalho*/
 header{
-    padding: 40px 5%;
+    padding: 40px 4%;
 }
 
 .logoPrincipal img{
-    max-width: 150px;
+    max-width: 400px;
 }
 
 
@@ -59,10 +58,9 @@ header nav ul{
 
 header nav li{
    display: inline-block;
-   padding: 0 30px;
-   font-size: 18px;
+   padding: 0 40px;
+   font-size: 24px;
 }
-
 
 
 .lrrsouzaContato button{
@@ -85,19 +83,23 @@ cursor: pointer;
 /* BlocoEstiloTopo*/
 
 section.topo-do-site{
-    padding: 35px 4%;
+    padding: 40px 4%;
 }
 
-section .topo-do-site .flex{
+section.topo-do-site .flex{
     align-items: center;
     justify-content: center;
-    gap: 95px;
+    gap:90px;
 }
 
 .topo-do-site h1{
     color: #ffffff;
     font-size: 45px;
-    line-height: 40px;
+    line-height: 45px;
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color:#5a897c;
 }
 
 .topo-do-site .txt-topo-site p{
