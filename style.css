@@ -24,18 +24,21 @@ body{
 
 /* BlocoEstiloCabeçalho*/
 header{
-    padding: 40px 4%;
+    padding: 30px 4%;
 }
 
 .logoPrincipal img{
     max-width: 400px;
+    padding: 30px 4%;
 }
 
 
-header > .interface{
-    display: flex;
-    align-items: center;
+header .interface{
+    display:flex;
+    align-items:center;
     justify-content: space-between;
+    border-radius: 30px;
+    box-shadow: rgb(90, 137, 124) 0px 0px 40px 12px;
 }
 
 header a{
@@ -47,6 +50,7 @@ header a{
 }
 
 header nav ul li a:hover{
+    box-shadow: rgb(90, 137, 124) 0px 0px 40px 12px;
     color: #ffffff;
     transform: scale(1.04);
 }
@@ -83,7 +87,7 @@ cursor: pointer;
 /* BlocoEstiloTopo*/
 
 section.topo-do-site{
-    padding: 40px 4%;
+    padding: 35px 4%;
 }
 
 section.topo-do-site .flex{
@@ -94,15 +98,30 @@ section.topo-do-site .flex{
 
 .topo-do-site h1{
     color: #ffffff;
-    font-size: 45px;
-    line-height: 45px;
+    font-size: 40px;
+    line-height: 40px;
 }
 
-.topo-do-site .txt-topo-site h1 span{
+.topo-do-site h2{
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.topo-do-site h3{
+    color: #ffffff;
+    margin: 40px 0;
+    font-size: 30px;
+    line-height: 45px;
+
+}
+
+.topo-do-site .txt-topo-site span{
     color:#5a897c;
 }
 
 .topo-do-site .txt-topo-site p{
+    font-size: 20px;
     color: #ffffff;
     margin: 40px 0;
 }
@@ -121,3 +140,81 @@ section.topo-do-site .flex{
         top: 30px;
     }
 }
+
+/* BlocoEstiloRodapé*/
+
+footer {
+    padding: 35px 4%;
+    box-shadow: 0 0 40px 12px #5a897c;
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+  
+  footer .footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  footer .footerContent {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /* width: 100%; */
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  footer .footerLogo img {
+    max-width: 150px;
+  }
+  
+  footer .socialLinks bottun{
+    display: flex;
+    align-items: center;
+  }
+  
+  footer .socialLinks a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #5a897c;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 60px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  footer .socialLinks a:hover {
+    background-color: #367b6e;
+  }
+  
+  footer .footerContact {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+
+  footer .footerContact p i {
+    font-size: 24px;
+    color: #5a897c;
+    margin-right: 5px;
+  }
+  
+  footer .footerContact p a {
+    font-size: 22px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  footer .footerContact p a:hover {
+    text-decoration: underline;
+  }
+
+  .footerLinke{
+    color: #ffffff;
+    text-decoration: none;
+  }
