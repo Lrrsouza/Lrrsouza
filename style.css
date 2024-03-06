@@ -21,17 +21,10 @@ body{
     display:flex;
 }
 
-
 /* BlocoEstiloCabeçalho*/
 header{
-    padding: 30px 4%;
+    padding: 40px;
 }
-
-.logoPrincipal img{
-    max-width: 400px;
-    padding: 30px 4%;
-}
-
 
 header .interface{
     display:flex;
@@ -41,18 +34,22 @@ header .interface{
     box-shadow: rgb(90, 137, 124) 0px 0px 40px 12px;
 }
 
+header h1{
+  margin-left: 40px;
+}
+
 header a{
     color:#5a897c;
     text-decoration: none;
     display: inline-block;
     transition:.2s;
-
 }
 
 header nav ul li a:hover{
     box-shadow: rgb(90, 137, 124) 0px 0px 40px 12px;
     color: #ffffff;
     transform: scale(1.04);
+    background-color: none;
 }
 
 
@@ -75,7 +72,6 @@ background-color:#5a897c;
 border: 0;
 border-radius:30px;
 cursor: pointer;
-
 }
 
 .lrrsouzaContato button:hover{
@@ -87,7 +83,7 @@ cursor: pointer;
 /* BlocoEstiloTopo*/
 
 section.topo-do-site{
-    padding: 35px 4%;
+    padding: 30px 4%;
 }
 
 section.topo-do-site .flex{
@@ -129,6 +125,7 @@ section.topo-do-site .flex{
 .topo-do-site .img-topo-site img{
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
+    box-shadow: rgb(90, 137, 124) 0px 0px 40px 12px
 
 }
 
@@ -160,7 +157,6 @@ footer {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    /* width: 100%; */
     max-width: 1200px;
     margin: 0 auto;
   }
