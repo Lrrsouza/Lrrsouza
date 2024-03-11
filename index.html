@@ -1,100 +1,180 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Google Fontes-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+    <!--Fim Google Fontes-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Lrrsouza.com</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!--Google Fontes-->
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
-    rel="stylesheet" />
-  <!--Fim Google Fontes-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Lrrsouza.com</title>
-</head>
-
-<body>
-  <header>
-    <div class="interface">
-      <div class="logoPrincipal">
-        <a href="#">
-          <H1>PORTI<span>FÓLIO</span></H1>
-        </a>
-      </div>
-      <!--Fim-logoPrincipal-->
-      <nav class="menuDesktop">
-        <ul>
-          <li><a href="#">Início</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Projetos</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
-      </nav>
-      
-    </div>
-    <!--Fim-interface-->
-  </header>
-  <main>
-    <section class="topo-do-site">
+  <body>
+    <header>
       <div class="interface">
-        <div class="flex">
-          <div class="txt-topo-site">
-            <h1>Luís <span>Ricardo</span></h1>
-            <h2>Desenvolvedor Front End</h2>
-            <h3>
-              TRANSFORMANDO IDEIAS EM <br />
-              SITES INCRÍVEIS<span>.</span>
-            </h3>
-            <p>
-              Se você está pronto para dar vida à sua ideia em um site incrível, 
-              embarque conosco nesta emocionante jornada digital.
-              <br> Vamos criar algo verdadeiramente extraordinário juntos!
-              <bR> Entre em contato agora mesmo para começarmos a construir sua presença online hoje mesmo.
-              <br>Transforme suas ideias em um mundo digital.
-            </p>
-            <div class="lrrsouzaContato">
-              <a href="#">
-                <button>Entre em contato</button>
-              </a>
-            </div>
-            <!--Fim-class-Contato-->
-          </div>
-          <!--Fim-txt-topo-site-->
-          <div class="img-topo-site">
-            <img src="imag/fotoPerfil.png" alt="" />
-          </div>
+        <div class="logoPrincipal">
+          <a href="#">
+            <h1>Lrrsouza</h1>
+          </a>
         </div>
-        <!--Fim-flex-->
+        <!--Fim-logoPrincipal-->
+        <nav class="menuDesktop">
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#formulario">Fale Comigo</a></li>
+          </ul>
+        </nav>
+        <div class="btn-abrir-menu" id="btn-menu">
+          <i class="bi bi-list"></i>
+      </div>
+
+      <div class="menu-mobile" id="menu-mobile">
+          <div class="btn-fechar">
+              <i class="bi bi-x-lg"></i>
+          </div>
+          <nav class="menuDesktop">
+            <ul>
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#formulario">Fale Comigo</a></li>
+            </ul>
+          </nav>
       </div>
       <!--Fim-interface-->
-    </section>
-    <!--Fim-topo-do-site-->
-  </main>
-  <footer>
-    <div class="footerContainer">
-      <div class="footerContent">
-      
-        <div class="socialLinks">
-          <a href="https://www.linkedin.com/in/lrrsouza/" target="_blank"><i class="bi bi-linkedin"></i></a>
-          <a href="https://github.com/Lrrsouza" target="_blank"><i class="bi bi-github"></i></a>
-          <a href="https://www.instagram.com/luisricardoramosdesouza/" target="_blank"><i class="bi bi-instagram"></i></a>
+  
+    </header>
+    <main>
+      <section id="inicio">
+        <div class="interface">
+          <div class="flex">
+            <div class="txt-topo-site">
+              <h1>Luís <span>Ricardo</span></h1>
+              <h2>Desenvolvedor Front End</h2>
+              <h3>transformando ideias em <span>sites inclíveis.</span></h3>
+                            <div class="lrrsouzaContato">
+                              </div>
+              <!--Fim-class-Contato-->
+            </div>
+            <!--Fim-txt-topo-site-->
+            <div class="img-topo-site">
+              <img src="imag/ideia.png" alt="Imagem de Uma Lampâda" />
+            </div>
+            <!--Fim-Img-Topo-Site-->
+          </div>
+          <!--Fim-flex-->
         </div>
-        <!-- Fim dos Links Sociais -->
-      </div>
-      <!-- Fim do Conteúdo do Footer -->
-      <div class="footerContact">
-        <p>
-          <i class="bi bi-envelope-fill"></i>
-          <a href="mailto:luis.ramo@outlook.com.br">luis.ramo@outlook.com.br</a>
+        <!--Fim-interface-->
+      </section>
+      <!--Fim-topo-do-site-->
+      <section id="sobre">
+        <div class="interface">
+          <div class="flex">
+            <div class="imgSobre">
+              <img src="imag/fotoPerfil.png" alt="Foto Sobre" />
+            </div>
+            <!--Fim-img-sobre-->
+            <div class="txtSobre">
+              <h2>muito prazer,<span>sou luis ricardo</span></h2>
+              <p>
+                Profissional experiente em transição de carreira, migrando da área de Analista de Suporte de Sistemas para Desenvolvimento Frontend. Com mais de 12 anos de experiência em suporte de sistemas, desenvolvi habilidade analítica, trabalho em equipe e capacidade de adaptação.   
+              </p>
+              <p>
+                Estou totalmente comprometido em aplicar meu conhecimento em projetos de forma colaborativa, utilizando minhas habilidades de comunicação efetiva e trabalho em equipe. Busco constantemente aprender e crescer diante de desafios, sendo resiliente na resolução de problemas técnicos. Estou pronto para colaborar com equipes talentosas, implementando soluções que agreguem valor e atendam às necessidades dos usuários finais.
+              </p>
+            </div>
+            <!--Fim-Txt-Sobre-->
+          </div>
+          <!--Fim-Flex-Sobre-->
+        </div>
+        <!--Fim-Interface-->
+      </section>
+      <section id="projetos">
+        <div class="interface">
+          <h2 class="titulo">meus<span>projetos.</span></h2>
+          <div class="flex">
+            <div class="img-port"></div>
+            <div class="img-port"></div>
+            <div class="img-port"></div>
+          </div>
+          <!--Fim-flex -->
+        </div>
+        <!--Fim-Interface -->
+      </section>
+      <!--Fim-Portifolio-->
+      <section id="#habilidades">
+        <div class="interface">
+          <h2 class="titulo">habilidades</h2>
+          <div class="flex">
+            <!-- <div class="img-port"></div>
+            <div class="img-port"></div>
+            <div class="img-port"></div> -->
+          </div>
+          <!--Fim-flex -->
+      </section>
+      <section id="formulario">
+        <div class="interface">
+            <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+
+            <form action="">
+                <input type="text" name="" id="" placeholder="Seu nome completo:" required>
+                <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+                <input type="text" name="" id="" placeholder="Seu celular:">
+                <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                <div class="enviar"><input type="submit" value="ENVIAR"></div>
+            </form>
+        </div><!--interface-->
+    </section><!--formulario-->
+      </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footerContainer">
+        <div class="footerContent">
+          <div class="socialLinks">
+            <a href="https://www.linkedin.com/in/lrrsouza/" target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+            <a href="https://github.com/Lrrsouza" target="_blank"
+              ><i class="bi bi-github"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/luisricardoramosdesouza/"
+              target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </div>
+          <!-- Fim dos Links Sociais -->
+        </div>
+        <!-- Fim do Conteúdo do Footer -->
+        <div class="footerContact">
+          <p>
+            <i class="bi bi-envelope-fill"></i>
+            <a href="mailto:luis.ramo@outlook.com.br"
+              >luis.ramo@outlook.com.br</a
+            >
+          </p>
+        </div>
+        <!-- Fim das Informações de Contato -->
+        <p class="copyright">
+          Todos os Direitos Reservados -
+          <a href="https://lrrsouza.com" class="footerLinke">lrssouza.com</a>
+          &copy; 2024
         </p>
       </div>
-      <!-- Fim das Informações de Contato -->
-      <p class="copyright">Todos os Direitos Reservados - <a href="https://lrrsouza.com" class="footerLinke">lrssouza.com</a> &copy; 2024</p>
-    </div>
-    <!-- Fim do Container do Footer -->
-  </footer>
-  
-  
-</body>
-
-
+      <!-- Fim do Container do Footer -->
+    </footer>
+  </body>
+</html>

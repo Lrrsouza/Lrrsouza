@@ -1,218 +1,480 @@
 /* BlocoEstiloGeral*/
-*{
-    font-family: "JetBrains Mono", monospace;
-    margin: 0;
-    padding:0;
-    box-sizing:border-box;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "JetBrains Mono", monospace;
 }
 
-body{
-    background-color: #161616;
-    height: 100vh;
-
+body {
+  background-color: #14161f;
+  height: 100vh;
 }
 
-.interface{
-    max-width:1280;
-    margin: 0 auto;
+.interface {
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
-.flex{
-    display:flex;
+.flex {
+  display: flex;
 }
 
-/* BlocoEstiloCabeçalho*/
-header{
-    padding: 40px;
+h2.titulo {
+  color: #f5fffa;
+  font-size: 38px;
+  text-align: center;
 }
 
-header .interface{
-    display:flex;
-    align-items:center;
-    justify-content: space-between;
-    border-radius: 30px;
-    box-shadow: rgb(90, 137, 124) 0px 0px 40px 12px;
+h2.titulo span {
+  color: #5a897c;
 }
 
-header h1{
-  margin-left: 40px;
+/* Bloco-Estilo-Cabeçalho */
+
+header {
+  background-color: #14161f;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
 }
 
-header a{
-    color:#5a897c;
-    text-decoration: none;
-    display: inline-block;
-    transition:.2s;
+header .interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-header nav ul li a:hover{
-    box-shadow: rgb(90, 137, 124) 0px 0px 40px 12px;
-    color: #ffffff;
-    transform: scale(1.04);
-    background-color: none;
+header h1 {
+  margin-left: 86px;
+  text-transform: uppercase;
+  font-size: 40px;
 }
 
-
-header nav ul{
-    list-style-type: none;
+header a {
+  color: #5a897c;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.2s;
 }
 
-header nav li{
-   display: inline-block;
-   padding: 0 40px;
-   font-size: 24px;
+header nav ul li a:hover {
+  color: #f5fffa;
+  transform: scale(1.04);
+  background-color: none;
 }
 
-
-.lrrsouzaContato button{
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color:#5a897c;
-    border: 0;
-    border-radius:30px;
-    cursor: pointer;
+header nav ul {
+  list-style-type: none;
 }
 
-.lrrsouzaContato button:hover{
-    box-shadow: 0px 0px 8px;
-    transition:.2s;
-    transform: scale(1.02);
+header nav.menuDesktop li {
+  display: inline-block;
+  padding: 0 30px;
+  font-size: 20px;
 }
 
-/* BlocoEstiloTopo*/
+/* ESTILO DO MENU MOBILE */
 
-section.topo-do-site{
-    padding: 30px 4%;
+.btn-abrir-menu {
+  display: none;
 }
 
-section.topo-do-site .flex{
-    align-items: center;
-    justify-content: center;
-    gap:90px;
+.btn-abrir-menu i {
+  color: #00ff08;
+  font-size: 40px;
 }
 
-.topo-do-site h1{
-    color: #ffffff;
-    font-size: 40px;
-    line-height: 40px;
+.menu-mobile {
+  background-color: #000;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 99999;
+  width: 0%;
+  overflow: hidden;
+  transition: 0.5s;
 }
 
-.topo-do-site h2{
-    color: #ffffff;
-    font-size: 22px;
-    line-height: 40px;
+.menu-mobile.abrir-menu {
+  width: 70%;
 }
 
-.topo-do-site h3{
-    color: #ffffff;
-    margin: 40px 0;
-    font-size: 30px;
-    line-height: 45px;
+.menu-mobile.abrir-menu ~ .overlay-menu {
+  display: block;
 }
 
-.topo-do-site .txt-topo-site span{
-    color:#5a897c;
+.menu-mobile .btn-fechar {
+  padding: 20px 5%;
 }
 
-.topo-do-site .txt-topo-site p{
-    font-size: 20px;
-    color: #ffffff;
-    margin: 40px 0;
-    word-wrap: break-word;
+.menu-mobile .btn-fechar i {
+  color: #00ff08;
+  font-size: 30px;
 }
 
-.topo-do-site .img-topo-site img{
-    
-    position: relative;
-    animation: flutuar 2s ease-in-out infinite alternate;
-    border-radius: 50px;
-    box-shadow: rgb(90, 137, 124) 0px 0px 40px 12px
-
+.menu-mobile nav ul {
+  text-align: right;
 }
 
-@keyframes flutuar{
-    0%{
-        top:0;
-    }
-    100%{
-        top: 30px;
-    }
+.menu-mobile nav ul li a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 20px 8%;
+  display: block;
 }
 
+.menu-mobile nav ul li a:hover {
+  background-color: #00ff08;
+  color: #000;
+}
+
+.overlay-menu {
+  background-color: #000000df;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 88888;
+  display: none;
+}
+
+/* Bloco-Estilo-Topo*/
+
+#inicio {
+  padding: 80px 4%;
+}
+
+#inicio .flex {
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+#inicio h1 {
+  color: #f5fffa;
+  font-size: 70px;
+  line-height: 50px;
+}
+
+#inicio h2 {
+  color: #f5fffa;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+#inicio h3 {
+  color: #f5fffa;
+  margin: 40px 0;
+  font-size: 30px;
+  line-height: 45px;
+  text-transform: uppercase;
+}
+
+#inicio .txt-topo-site span {
+  color: #5a897c;
+}
+
+#inicio .txt-topo-site p {
+  font-size: 24px;
+  color: #f5fffa;
+  margin: 20px 0;
+  text-align: justify;
+  word-wrap: break-word;
+}
+
+#inicio .img-topo-site img {
+  position: relative;
+  animation: flutuar 2s ease-in-out infinite alternate;
+  border-radius: 100px;
+}
+
+@keyframes flutuar {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 30px;
+  }
+}
+/* BlocoEstiloSobre*/
+
+#sobre {
+  padding: 80px 4%;
+}
+
+#sobre .flex {
+  align-items: center;
+  gap: 60px;
+}
+
+#sobre .txtSobre {
+  color: #f5fffa;
+}
+
+#sobre .txtSobre h2 {
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+#sobre .txtSobre h2 span {
+  color: #5a897c;
+  display: block;
+}
+
+#sobre .txtSobre p {
+  margin: 20px 0;
+  text-align: justify;
+}
+
+#sobre .txtSobre .socialLinks button {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #5a897c;
+  font-size: 24px;
+  color: #f5fffa;
+  text-align: center;
+  line-height: 60px;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+}
+
+/*Bloco-Estilo-Portifólio*/
+
+#projetos {
+  padding: 80px 4%;
+  /* box-shadow: 0 0 40px 10px #f5fffa; */
+}
+#projetos .flex {
+  justify-content: space-around;
+}
+
+#projetos .titulo {
+  text-transform: uppercase;
+}
+
+.img-port {
+  width: 360px;
+  height: 460px;
+  background-color: #5a897c;
+  background-size: cover;
+  background-position: 100% 0%;
+  transition: 8s;
+  cursor: pointer;
+  border-radius: 40px;
+}
+/* ESTILO DO FORMULÁRIO DE CONTATO */
+
+#formulario {
+  padding: 80px 4%;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  background-color: #242424;
+  border: 0;
+  outline: 0;
+  padding: 20px 15px;
+  border-radius: 15px;
+  color: #f5fffa;
+  font-size: 18px;
+}
+
+form textarea {
+  resize: none;
+  max-height: 200px;
+}
+
+form .enviar {
+  margin-top: 20px;
+  text-align: center;
+}
+
+form .enviar input {
+  width: 120px;
+  background-color: #5a897c;
+  color: #f5fffa;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
 /* BlocoEstiloRodapé*/
 
 footer {
-    padding: 30px 4%;
-    box-shadow: 0 0 40px 12px #5a897c;
-    background-color: #1a1a1a;
-    color: #ffffff;
-  }
-  
-  footer .footerContainer {
-    display: flex;
+  padding: 40px 4%;
+  box-shadow: 0 0 20px 12px #5a897c;
+  background-color: #14161f;
+  color: #f5fffa;
+}
+
+footer .footerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer .socialLinks bottun {
+  display: flex;
+  align-items: center;
+}
+
+footer .socialLinks a {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #5a897c;
+  font-size: 24px;
+  color: #f5fffa;
+  text-align: center;
+  line-height: 60px;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+}
+
+footer .socialLinks a:hover {
+  background-color: #367b6e;
+}
+
+footer .footerContact {
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer .footerContact p i {
+  font-size: 24px;
+  color: #5a897c;
+  margin-right: 5px;
+}
+
+footer .footerContact p a {
+  font-size: 20px;
+  color: #f5fffa;
+  text-decoration: none;
+}
+
+footer .footerContact p a:hover {
+  text-decoration: underline;
+}
+
+.footerLinke {
+  color: #f5fffa;
+  text-decoration: none;
+}
+@media screen and (max-width: 1020px) {
+  /* CLASSES GERAIS */
+  .flex {
     flex-direction: column;
-    align-items: center;
   }
-  
-  footer .footerContent {
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    max-width: 1200px;
+
+  .topo-do-site .flex {
+    flex-direction: column-reverse;
+  }
+
+  h2.titulo {
+    font-size: 34px;
+    line-height: 30px;
+  }
+
+  /* CABEÇALHO */
+  .menu-desktop,
+  .btn-contato {
+    display: none;
+  }
+
+  /* TOPO DO SITE */
+
+  section.topo-do-site .flex {
+    gap: 40px;
+  }
+
+  section.topo-do-site {
+    padding: 20px 8%;
+  }
+
+  .topo-do-site h1 {
+    font-size: 30px;
+  }
+
+  .topo-do-site .img-topo-site img {
+    width: 100%;
+  }
+
+  /* ESPECIALIDADES */
+  section.especiliadades {
+    padding: 40px 8%;
+  }
+
+  /* SOBRE */
+  section.sobre {
+    padding: 80px 8%;
+  }
+
+  .sobre .txt-sobre h2 {
+    font-size: 34px;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  .btn-social {
+    text-align: center;
+  }
+
+  .img-sobre img {
+    width: 100%;
+  }
+
+  /* PORTFÓLIO */
+  section.portfolio {
+    padding: 80px 8%;
+  }
+
+  .img-port {
+    width: 100%;
+    max-width: 360px;
     margin: 0 auto;
   }
-  
-  /* footer .footerLogo img {
-    max-width: 150px;
-  } */
-  
-  footer .socialLinks bottun{
-    display: flex;
-    align-items: center;
-  }
-  
-  footer .socialLinks a {
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: #5a897c;
-    font-size: 24px;
-    color: #ffffff;
-    text-align: center;
-    line-height: 60px;
-    margin: 0 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  footer .socialLinks a:hover {
-    background-color: #367b6e;
-  }
-  
-  footer .footerContact {
-    text-align: center;
-    padding: 20px 0;
-  }
-  
 
-  footer .footerContact p i {
-    font-size: 24px;
-    color: #5a897c;
-    margin-right: 5px;
-  }
-  
-  footer .footerContact p a {
-    font-size: 22px;
-    color: #ffffff;
-    text-decoration: none;
-  }
-  
-  footer .footerContact p a:hover {
-    text-decoration: underline;
+  section.portfolio .flex {
+    gap: 60px;
   }
 
-  .footerLinke{
-    color: #ffffff;
-    text-decoration: none;
+  /* RODAPÉ */
+
+  footer .flex {
+    flex-direction: column;
+    gap: 30px;
   }
+
+  footer .line-footer {
+    text-align: center;
+  }
+}
