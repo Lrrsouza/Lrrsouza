@@ -1,43 +1,45 @@
-<h1 align="left">Luís Ricardo</h1>
+<br clear="both">
+
+<h1 align="center">Luís Ricardo<br>Desenvolvedor Front End</h1>
 
 ###
 
-<h2 align="left">Desenvolvedor Front End</h2>
+<h3 align="left"></h3>
 
 ###
 
 <br clear="both">
 
-<h4 align="center">Sobre</h4>
+<h3 align="center">Sobre</h3>
 
 ###
 
 <br clear="both">
 
 <div align="center">
-  <img height="1" src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"  />
+  <img height="2" src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"  />
 </div>
 
 ###
 
-<img align="left" height="300" src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif"  />
+<img align="left" height="300" src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png"  />
 
 ###
 
-<p align="left">Profissional</p>
+<p align="left">Com mais de 13 anos de experiência na área de Tecnologia, trago comigo uma bagagem valiosa em diferentes áreas de atuação. Iniciei minha carreira como Analista de Suporte, onde me destaquei pela capacidade <br>de solucionar problemas técnicos com excelência e dedicação. Ao longo dessa jornada, desenvolvi fortes habilidades de comunicação e trabalho em equipe, essenciais para o sucesso em projetos multidisciplinares.<br><br>Atualmente, estou em transição para a área de Desenvolvimento Front-end, onde me encontro motivado e empolgado com os novos desafios.  Tenho me dedicado ao aprimoramento de minhas habilidades em HTML, CSS3 e JavaScript, e já estou aplicando esses conhecimentos em projetos pessoais.<br><br>Sou um profissional apaixonado por tecnologia e inovação, e busco constantemente oportunidades para aprender e crescer. Acredito que minha experiência, minhas habilidades técnicas e meu perfil colaborativo podem agregar valor a qualquer equipe.</p>
 
 ###
 
 <br clear="both">
 
-<h4 align="center">Tecnologias</h4>
+<h3 align="center">Tecnologias</h3>
 
 ###
 
 <br clear="both">
 
 <div align="center">
-  <img height="1" src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"  />
+  <img height="2" src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"  />
 </div>
 
 ###
@@ -64,14 +66,14 @@
 
 <br clear="both">
 
-<h4 align="center">Ferramentas</h4>
+<h3 align="center">Ferramentas</h3>
 
 ###
 
 <br clear="both">
 
 <div align="center">
-  <img height="1" src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"  />
+  <img height="2" src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"  />
 </div>
 
 ###
@@ -94,14 +96,14 @@
 
 ###
 
-<h4 align="center">Atividades</h4>
+<h3 align="center">Atividades</h3>
 
 ###
 
 <br clear="both">
 
 <div align="center">
-  <img height="1" src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"  />
+  <img height="2" src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"  />
 </div>
 
 ###
@@ -119,16 +121,14 @@
 
 ###
 
-<br clear="both">
-
-<h4 align="center">Entre em contato</h4>
+<h3 align="center">Entre em contato</h3>
 
 ###
 
 <br clear="both">
 
 <div align="center">
-  <img height="1" src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"  />
+  <img height="2" src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"  />
 </div>
 
 ###
@@ -156,9 +156,7 @@
 
 ###
 
-<br clear="both">
-
-<h4 align="center">Será um prazer contribuir</h4>
+<h3 align="center">Será um prazer contribuir</h3>
 
 ###
 
