@@ -1,6 +1,10 @@
 <br clear="both">
 
-<h1 align="center">Luís Ricardo<br>Desenvolvedor Front End</h1>
+<div align="center">
+  <img height="2" src="/assets/img/banner github.png"  />
+</div>
+
+assets/img/banner github.png
 
 ###
 
