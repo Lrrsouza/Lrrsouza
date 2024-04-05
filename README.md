@@ -1,7 +1,7 @@
 <br clear="both">
 
 <div align="center">
-  <img height="2" src="https://github.com/Lrrsouza/Lrrsouza/blob/main/assets/img/banner%20github.png?raw=true" />
+  <img  src="https://github.com/Lrrsouza/Lrrsouza/blob/main/assets/img/banner%20github.png?raw=true" />
 </div>
 
 assets/img/banner github.png
