@@ -4,10 +4,6 @@
   <img  src="https://github.com/Lrrsouza/Lrrsouza/blob/main/assets/img/banner%20github.png?raw=true" />
 </div>
 
-assets/img/banner github.png
-
-###
-
 <h3 align="left"></h3>
 
 ###
@@ -26,7 +22,7 @@ assets/img/banner github.png
 
 ###
 
-<img align="left" height="300" src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png"  />
+<img align="left" height="400" src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png"  />
 
 ###
 
