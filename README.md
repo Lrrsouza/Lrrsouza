@@ -22,7 +22,7 @@
 
 ###
 
-<img align="left" height="400" src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png"  />
+<img align="left" height="400" src="https://github.com/Lrrsouza/Lrrsouza/blob/main/assets/img/octocat01.png?raw=true"  />
 
 ###
 
