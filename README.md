@@ -26,7 +26,15 @@
 
 ###
 
-<p align="left">Com mais de 13 anos de experiência na área de Tecnologia, trago comigo uma bagagem valiosa em diferentes áreas de atuação. Iniciei minha carreira como Analista de Suporte, onde me destaquei pela capacidade <br>de solucionar problemas técnicos com excelência e dedicação. Ao longo dessa jornada, desenvolvi fortes habilidades de comunicação e trabalho em equipe, essenciais para o sucesso em projetos multidisciplinares.<br><br>Atualmente, estou em transição para a área de Desenvolvimento Front-end, onde me encontro motivado e empolgado com os novos desafios.  Tenho me dedicado ao aprimoramento de minhas habilidades em HTML, CSS3 e JavaScript, e já estou aplicando esses conhecimentos em projetos pessoais.<br><br>Sou um profissional apaixonado por tecnologia e inovação, e busco constantemente oportunidades para aprender e crescer. Acredito que minha experiência, minhas habilidades técnicas e meu perfil colaborativo podem agregar valor a qualquer equipe.</p>
+<p align="left">Com mais de 13 anos de experiência na área de suporte técnico, estou em meio a uma emocionante transição para a área de desenvolvimento front-end. Minha jornada profissional tem sido marcada pela dedicação em oferecer suporte excepcional aos clientes e solucionar problemas de maneira eficiente.
+
+Agora, estou direcionando minha paixão pela tecnologia e minha habilidade em resolver desafios complexos para a área de desenvolvimento front-end. Estou imerso em aprender as linguagens e frameworks mais recentes, buscando adquirir as habilidades necessárias para criar experiências digitais envolventes e intuitivas.
+
+Minha experiência em lidar com questões técnicas e trabalhar em equipe tem sido fundamental nessa transição. Estou determinado a aplicar minha mentalidade analítica e minha capacidade de colaboração para contribuir significativamente em projetos de desenvolvimento front-end.
+
+Estou entusiasmado com as oportunidades de crescimento e aprendizado que esta nova fase da minha carreira oferece. Estou aberto a desafios e encorajado a explorar novas possibilidades de colaboração nesta área dinâmica e inovadora.
+
+Se você está em busca de um profissional dedicado, apaixonado por tecnologia e comprometido em se reinventar, estou pronto para abraçar essa oportunidade e fazer a diferença em sua equipe de desenvolvimento front-end.</p>
 
 ###
 
